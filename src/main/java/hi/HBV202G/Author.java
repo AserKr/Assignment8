@@ -1,6 +1,9 @@
 package hi.HBV202G;
 
 public class Author {
+
+    private String name;
+
     public String getName() {
         return name;
     }
@@ -9,7 +12,6 @@ public class Author {
         this.name = name;
     }
 
-    public String name;
 
 
     public Author(String name) {
